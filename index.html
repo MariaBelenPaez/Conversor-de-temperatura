@@ -1,0 +1,33 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>ConversorDeTemperatura</title>
+</head>
+
+<body>
+    <script src="index.js"></script>
+
+
+    <div class="contenedor">
+        <h2>Conversor de Temperatura</h2>
+        <p>Ingresa un valor en Celsius para convertirlo a Fahrenheit:</p>
+
+
+
+        <p>
+            <label>Celsius</label>
+            <input id="ColocaCelsius" type="numero" placeholder="ColocaCelsius" oninput="ConversorDeTemperatura(this.value)" onchange="ConversorDeTemperatura(this.value)">
+        </p>
+        <p>Fahrenheit: <span id="EnFahrenheit"></span></p>
+    </div>
+    <div class="icons">
+        <i class="fa fa-thermometer" style="font-size:36px"></i>
+    </div>
+
+</body>
+
+</html>

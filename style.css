@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffeaa7;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+h2 {
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 4%;
+}
+
+.contenedor {
+    background-color: indianred;
+    height: 400px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: lemonchiffon;
+    border: rgb(226, 69, 69) solid 1px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input {
+    background-color: khaki;
+    border: lawngreen solid 2px;
+}
+
+i {
+    margin-left: 15px;
+}
